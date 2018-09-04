@@ -55,7 +55,7 @@ abstract class DJUploadHelper {
 		
 		$doc = JFactory::getDocument();
 		$doc->addStyleSheet('//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css');
-		$doc->addStyleSheet(JURI::root(true).'/components/com_djclassifieds/assets/upload/jquery.ui.plupload/css/jquery.ui.plupload.css');
+        $doc->addStyleSheet(JURI::root(true).'/components/com_djclassifieds/assets/upload/jquery.ui.plupload/css/jquery.ui.plupload.css');
 		JHTML::_('behavior.framework', true);
 		$version = new JVersion;
 		if (version_compare($version->getShortVersion(), '3.0.0', '<')) {
@@ -66,13 +66,13 @@ abstract class DJUploadHelper {
 		}
 		$doc->addScript('//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js');
 		//$doc->addScript('//bp.yahooapis.com/2.4.21/browserplus-min.js');
-		$doc->addScript(JURI::root(true).'/components/com_djclassifieds/assets/upload/plupload.full.js');
+        $doc->addScript(JURI::root(true).'/components/com_djclassifieds/assets/upload/plupload.full.js');
 		$doc->addScript(JURI::root(true).'/components/com_djclassifieds/assets/upload/jquery.ui.plupload/jquery.ui.plupload.js');
-		
+        $html = '';
 		$component = JRequest::getCmd('option');
 		$url = $settings['url'];
 		if(!$url) $url = JURI::base(true).'/index.php?option='.$component.'&task=upload&tmpl=component';
-		
+
 		$js = "			
 			jQuery(function(){
 				
