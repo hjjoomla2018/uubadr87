@@ -24,6 +24,33 @@
 /**/
 
 
+/*Css para modificar el texto del usuario actualmente logueado*/
+
+#user-login-oka{
+    margin-left: 10px;
+    background-color: #06a0d8;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 2.5px solid black;
+    color: white;
+}
+
+#jm-top-menu-nav #login-form{
+    padding: 2px 0 0 0;
+}
+
+
+/**/
+
+/*Css para elminar que al pasar por arriba de algún campo, modifique el cursor por una manito*/
+
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: default;
+}
+
+/**/
+
+
 
 
 /**/

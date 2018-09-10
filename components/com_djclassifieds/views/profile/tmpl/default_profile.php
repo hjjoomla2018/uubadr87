@@ -70,8 +70,9 @@ if($menu_jprofileedit_itemid){
 		echo '</span>';
 	//}?>
 	<div class="profile_name_data">
-		<div class="main_cat_title">		
-			<h2 class="profile_name"><?php echo $this->profile['name']; ?>	
+		<div class="main_cat_title">
+
+			<h2 class="profile_name"><?php /*var_dump($this->profile);*/ echo $this->profile['name']; ?>
 			<?php  			
 			
 			if(isset($this->profile['details']->verified)){
@@ -84,8 +85,8 @@ if($menu_jprofileedit_itemid){
 				echo '<a href="'.$user_edit_profile.'" class="title_edit button">'.JText::_('COM_DJCLASSIFIEDS_PROFILE_EDITION').'</a>';
 				echo '<a href="'.$juser_edit_profile.'" class="title_edit title_jedit button">'.JText::_('COM_DJCLASSIFIEDS_CHANGE_PASSWORD_EMAIL').'</a>';
 			} ?>				
-			</h2>			
-		</div>
+			</h2>
+        </div>
 		<?php if($this->profile['data']){ ?>
 			<div class="profile_data">
 			<?php foreach($this->profile['data'] as $f){
@@ -99,6 +100,7 @@ if($menu_jprofileedit_itemid){
 					$tel_tag='tel:'.$f->value;
 				}				
 				?>
+
 				<div class="profile_row row_<?php echo $f->name;?>">
 					<span class="profile_row_label"><?php echo JText::_($f->label); ?></span>
 					<span class="profile_row_value<?php if($f->hide_on_start){echo ' djsvoc" title="'.htmlentities($f->value); }?>" rel="<?php echo $tel_tag; ?>" >
