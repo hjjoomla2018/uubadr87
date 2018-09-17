@@ -144,6 +144,21 @@ jQuery(document).ready(function() {
 	searchModule.focusin(function() {
 		jQuery(this).addClass('focus');
 	});
+	
+	jQuery('#user-login-oka').live( 'click', function() {
+		jQuery( '#logout').css( 'top', jQuery(this).position().top-20 );
+		/*jQuery( '#logout').css( 'left', jQuery(this).position().left+100 );*/
+
+		jQuery( '#logout' ).fadeIn('slow');
+	});
+	
+	jQuery( '#logout').live('mouseleave', function (){
+        jQuery(this).fadeOut(200);
+	});
+	
+	jQuery( '#user-login-oka').live('mouseleave', function (){
+        jQuery('#logout').fadeOut(200);
+	});
 
 //	searchModule.focusout(function() {
 //		var $this = jQuery(this);

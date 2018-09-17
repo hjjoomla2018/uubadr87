@@ -17,6 +17,7 @@
 				<option value="3">3</option>
 				<option value="4">4</option>
 				<option value="5">5</option>
+                <option value="5">6</option>
 			</field>	
 			<field name="cattree_levels" type="list" default="" label="COM_DJCLASSIFIEDS_CONFIG_LEVELS_IN_CATTREE" description="COM_DJCLASSIFIEDS_CONFIG_LEVELS_IN_CATTREE_DESC" menu="hide">
 				<option value="">JGLOBAL_USE_GLOBAL</option>

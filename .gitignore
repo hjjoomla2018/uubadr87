@@ -1,2 +1,5 @@
 /configuration.php
 /templates/jm-iks/cache/*
+/cache/*
+/tmp/*
+/logs/*

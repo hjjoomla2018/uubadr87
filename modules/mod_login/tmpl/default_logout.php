@@ -19,7 +19,15 @@ JHtml::_('behavior.keepalive');
 	<?php else : ?>
 		<?php echo substr(JText::sprintf('MOD_LOGIN_HINAME', htmlspecialchars($user->get('username'), ENT_COMPAT, 'UTF-8')),6,1); ?>
 	<?php endif; ?>
-	</div>
+
+        <div id="logout">
+            <a href="/index.php/cerrar-sesion">
+            Cerrar sesión
+            </a>
+        </div>
+
+    </div>
+
 <?php endif; ?>
 <?php if ($params->get('profilelink')) : ?>
 	<ul class="unstyled">

@@ -28,23 +28,77 @@
 
 #user-login-oka{
     margin-left: 10px;
+    margin-right: 10px;
     background-color: #06a0d8;
     /*padding: 7px 10px;*/
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    border: 2.5px solid black;
+    /*border: 2.5px solid black;*/
     color: white;
     width: 35px;
-    height: 35px;
+    height: 32px;
     text-align: center;
-    line-height: 31px;
+    line-height: 32px;
     text-transform: uppercase;
     font-size: 18px;
+    /*overflow: auto;
+    overflow-x: visible;
+    -ms-overflow-x: visible;*/
+    /*position: absolute;*/
+
 }
+
+#user-login-oka:hover{
+    cursor: pointer;
+}
+
+#logout{
+    /*color: black;*/
+    display: none;
+    position: relative;
+    padding: 10px;
+    /*border: 1px solid #808080;*/
+    text-transform: none;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 600;
+    color: #454545;
+    font-family: "Lato";
+    width: 100px;
+    /*tab-index: 100;*/
+    z-index: 100;
+    overflow: auto;
+    background: white;
+    box-shadow: 1px 1px 1px .3px rgba(0,0,0,0.24);
+    border-radius: 5px;
+
+
+    /*overflow: auto;*/
+    /*overflow-x: hidden;
+    -ms-overflow-x: hidden;*/
+}
+
+#logout:hover{
+    /*background: #000;*/
+    /*opacity: .1;*/
+
+}
+
+#logout a{
+    color: #039ad2;
+}
+
+#logout a:hover{
+    color: #444;
+    text-decoration: none;
+}
+
+
 
 #jm-top-menu-nav #login-form{
     padding: 2px 0 0 0;
+    border-right: 1.5px solid #c0c6c8;
 }
 
 /**/
@@ -53,8 +107,31 @@
 
 #jm-top-menu-nav .jm-module-raw + .jm-module-raw {
 
-    margin-left: 5px;
+    margin-left: 0px;
 
+}
+
+/**/
+
+/*Css para modificar la forma de mostrar las categorias del home*/
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a {
+    /*display: table;*/
+    display: block;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li {
+    text-align: center;
+    padding-left: 25% !important;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a .cat_name {
+    text-align: center;
+    display: block;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a img.cat_tree_icon {
+    margin: 0;
 }
 
 /**/
