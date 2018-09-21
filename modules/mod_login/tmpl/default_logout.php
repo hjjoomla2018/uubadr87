@@ -21,7 +21,7 @@ JHtml::_('behavior.keepalive');
 	<?php endif; ?>
 
         <div id="logout">
-            <a href="/index.php/cerrar-sesion">
+            <a href="index.php?option=com_users&view=login&layout=logout&task=user.menulogout">
             Cerrar sesión
             </a>
         </div>

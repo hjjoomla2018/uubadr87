@@ -115,14 +115,24 @@
 
 /*Css para modificar la forma de mostrar las categorias del home*/
 
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree {
+    padding: 0 30px;
+}
+
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a {
     /*display: table;*/
     display: block;
 }
 
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a span{
+    /*display: table;*/
+    font-size: 15px;
+    color: #000000;
+}
+
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li {
     text-align: center;
-    padding-left: 25% !important;
+    padding-left: 0% !important;
 }
 
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a .cat_name {
@@ -132,6 +142,7 @@
 
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a img.cat_tree_icon {
     margin: 0;
+    width: 75px;
 }
 
 /**/
@@ -153,8 +164,30 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
 
 /**/
 
+/*Css para ocultar el ícono de loading en la interfaz de búsqueda de anuncios*/
+
+.djcf_slider_loader_img{
+    display: none;
+}
+
+/**/
 
 
+/*Css para modificar las notificaciones del header*/
+
+
+.mod_djmsgnotifications{
+    margin-left: 20px;
+}
+
+
+/**/
+
+/*Css para separar el content main cuando no existen resultados de búsqueda*/
+
+#jm-main #jm-maincontent {
+    margin-bottom: 60px;
+}
 
 /**/
 

@@ -30,6 +30,7 @@
 					<option value="3">3</option>
 					<option value="4">4</option>
 					<option value="5">5</option>
+                    <option value="6">6</option>
 				</field>	
 				<field name="cattree_levels" type="list" default="0" label="MOD_DJCLASSIFIEDS_CATTREE_LEVELS_IN_CATTREE" description="MOD_DJCLASSIFIEDS_CATTREE_LEVELS_IN_CATTREE_DESC" menu="hide">
 					<option value="0">MOD_DJCLASSIFIEDS_CATTREE_ALL</option>

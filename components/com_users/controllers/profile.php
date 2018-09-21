@@ -152,6 +152,8 @@ class UsersControllerProfile extends UsersController
 			// Redirect back to the edit screen.
 			$userId = (int) $app->getUserState('com_users.edit.profile.id');
 			$this->setRedirect(JRoute::_('index.php?option=com_users&view=profile&layout=edit&user_id=' . $userId, false));
+			//$this->setRedirect(JRoute::_('/index.php/mi-cuenta/editar-pefil-de-acceso', false));
+			
 
 			return false;
 		}
