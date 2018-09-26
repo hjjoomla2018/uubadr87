@@ -166,11 +166,11 @@ class DJClassifiedsControllerCategory extends JControllerLegacy {
 	    		
 	    		
 	    		move_uploaded_file($new_icon['tmp_name'], $path);
-	    	
-	    		$nw = $par->get('catth_width',-1);
+
+                $nw = $par->get('catth_width',-1);
 	    		$nh = $par->get('catth_height',-1);
-	    	
-	    		$name_parts = pathinfo($path);
+
+                $name_parts = pathinfo($path);
 	    		$img_name = $name_parts['filename'];
 	    		$img_ext = $name_parts['extension'];
 	    		$new_path = JPATH_SITE.$cat_path_rel;

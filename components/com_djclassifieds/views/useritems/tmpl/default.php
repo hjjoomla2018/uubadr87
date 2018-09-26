@@ -72,7 +72,7 @@ $r=TRUE;
 <div class="useritems_search">
 	<form method="post" name="djForm"  class="form" enctype="multipart/form-data" >															
 		<input type="text" size="25" name="search" class="inputbox" value="<?php echo JRequest::getVar('search',''); ?>" placeholder="<?php echo JText::_('COM_DJCLASSIFIEDS_SEARCH'); ?>" />
-		<button class="button" type="submit"  ><?php echo JText::_('COM_DJCLASSIFIEDS_SEARCH_BUTTON'); ?></button>			    	    
+		<button class="button" type="submit"  ><?php echo JText::_('COM_DJCLASSIFIEDS_SEARCH_BUTTON'); ?></button>
 	    <input type="hidden" name="option" value="com_djclassifieds" /> 
 	    <input type="hidden" name="view" value="useritems" />
 	    <input type="hidden" name="Itemid" value="<?php echo $it; ?>" />
