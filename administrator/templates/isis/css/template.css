@@ -6252,9 +6252,9 @@ div.modal.jviewport-width100 {
 [class*=" icon-"].disabled {
 	font-weight: normal;
 }
-.icon-joomla:before {
+/*.icon-joomla:before {
 	content: "\e200";
-}
+}*/
 .icon-chevron-up:before,
 .icon-uparrow:before,
 .icon-arrow-up:before {

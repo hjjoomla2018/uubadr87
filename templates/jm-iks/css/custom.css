@@ -116,7 +116,8 @@
 /*Css para modificar la forma de mostrar las categorias del home*/
 
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree {
-    padding: 0 30px;
+    padding: 0 5px;
+	min-width:153px;
 }
 
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a {
@@ -229,6 +230,8 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
 
 /*Css para resoluciones de móviles*/
 
+
+
 @media (max-width: 474px) {
 
     #jm-logo-sitedesc {
@@ -240,6 +243,15 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
         padding-left: 5px;
     }
 }
+
+@media (max-width: 750px) {
+
+    .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree {
+		width: 50% !important;
+	}
+}
+
+
 
 @media (max-width: 350px) {
 

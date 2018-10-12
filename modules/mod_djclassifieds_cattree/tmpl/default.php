@@ -71,7 +71,7 @@ if($ct_type=='cat'){
 <div class="mod_djclassifieds_cattree clearfix">
 	<div class="dj-cattree-box cols<?php echo $cols_limit.$ct_type_class; ?>" >	
 		<div class="dj-cattree-wrap">
-		<ul class="dj-cattree col1 cat0 lvl0" >
+		<ul class="dj-cattree col cat0 lvl0" >
 			<?php 
 				$c_count=0;
 				$prev_l = 0;
