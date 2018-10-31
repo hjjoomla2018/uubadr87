@@ -132,7 +132,8 @@
 }
 
 .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li {
-    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
     padding-left: 0% !important;
 }
 
@@ -244,7 +245,7 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
 
     .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree {
 		width: 50% !important;
