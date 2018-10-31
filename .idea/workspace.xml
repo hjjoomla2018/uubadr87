@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257e3ee8-0973-473f-9782-23a14c5c122f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/favicon.ico" afterPath="$PROJECT_DIR$/administrator/templates/isis/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/images/joomla.png" afterPath="$PROJECT_DIR$/administrator/templates/isis/images/joomla.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/images/login-joomla.png" afterPath="$PROJECT_DIR$/administrator/templates/isis/images/login-joomla.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/images/logo.png" afterPath="$PROJECT_DIR$/administrator/templates/isis/images/logo.png" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\100_21.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\100_21_ths.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\101_51.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\101_51_ths.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\104_13.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\104_13_ths.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\108_43.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\108_43_ths.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\69_62.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\69_62_ths.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\92_32.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\components\com_djclassifieds\images\category\0\92_32_ths.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/css/custom.css" afterPath="$PROJECT_DIR$/templates/jm-iks/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_djclassifieds_cattree/tmpl/default.php" afterPath="$PROJECT_DIR$/modules/mod_djclassifieds_cattree/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Black/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Black/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_BlackItalic/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_BlackItalic/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Bold/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Bold/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_BoldItalic/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_BoldItalic/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Hairline/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Hairline/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_HairlineItalic/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_HairlineItalic/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Italic/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Italic/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Light/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Light/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_LightItalic/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_LightItalic/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Regular/font.css" afterPath="$PROJECT_DIR$/templates/jm-iks/fonts/Lato_Regular/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/jm-iks/css/offline.css" afterPath="$PROJECT_DIR$/templates/jm-iks/css/offline.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/templates/isis/css/template.css" afterPath="$PROJECT_DIR$/administrator/templates/isis/css/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/es-ES/es-ES.com_djmessages.ini" afterPath="$PROJECT_DIR$/language/es-ES/es-ES.com_djmessages.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +41,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="install.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/manifests/files/install.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35083532" vertical-offset="448" max-vertical-offset="867">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.com_djmessages.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_djmessages/language/en-GB/en-GB.com_djmessages.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es-ES.com_djmessages.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/es-ES/es-ES.com_djmessages.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1258">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="djupload.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_djclassifieds/lib/djupload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.5893154" vertical-offset="409" max-vertical-offset="7837">
+              <caret line="243" column="38" selection-start-line="243" selection-start-column="38" selection-end-line="243" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -63,6 +90,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/administrator/manifests/files/install.xml" />
+        <option value="$PROJECT_DIR$/language/es-ES/es-ES.com_djmessages.ini" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -143,22 +178,22 @@
     <frame x="-7" y="0" width="1378" height="775" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -187,8 +222,51 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/administrator/manifests/files/install.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35083532" vertical-offset="448" max-vertical-offset="867">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/manifests/files/install.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_djmessages/language/en-GB/en-GB.com_djmessages.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/db/boozka_dbbuild_db_v0.0.3.sql">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2260062" vertical-offset="126288" max-vertical-offset="142460">
+          <caret line="7433" column="34" selection-start-line="7433" selection-start-column="34" selection-end-line="7433" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/es-ES/es-ES.com_djmessages.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1258">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_djclassifieds/lib/djupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.5893154" vertical-offset="409" max-vertical-offset="7837">
+          <caret line="243" column="38" selection-start-line="243" selection-start-column="38" selection-end-line="243" selection-end-column="38" />
           <folding />
         </state>
       </provider>

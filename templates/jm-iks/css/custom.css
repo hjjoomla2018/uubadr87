@@ -264,3 +264,12 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
 
 
 /**/
+
+/*Css para ocultar el ícono de los Rss en las categorías*/
+
+.main_cat_title .rss_icon{
+	display:none;
+}
+
+/**/
+
