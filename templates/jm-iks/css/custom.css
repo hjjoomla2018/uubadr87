@@ -1,0 +1,276 @@
+/*Css personalizados*/
+
+/*copyrights*/
+
+	#jm-footer{
+		padding: 15px 15px;
+	}
+	
+	#jm-footer-mod .span2{
+		padding:0px;
+		/*text-align:left;*/
+	}
+	
+	/*#jm-footer-mod .jm-footer-mod div:nth-child(3){
+		padding:0 0 0 30px;
+	}*/
+	
+	/*#jm-footer-mod  span:{
+		padding:0 0 0 10px;
+		text-align:left;
+	}*/
+
+
+/**/
+
+
+/*Css para modificar el texto del usuario actualmente logueado*/
+
+#user-login-oka{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #06a0d8;
+    /*padding: 7px 10px;*/
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    /*border: 2.5px solid black;*/
+    color: white;
+    width: 35px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-size: 18px;
+    /*overflow: auto;
+    overflow-x: visible;
+    -ms-overflow-x: visible;*/
+    /*position: absolute;*/
+
+}
+
+#user-login-oka:hover{
+    cursor: pointer;
+}
+
+#logout{
+    /*color: black;*/
+    display: none;
+    position: relative;
+    padding: 10px;
+    /*border: 1px solid #808080;*/
+    text-transform: none;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 600;
+    color: #454545;
+    font-family: "Lato";
+    width: 100px;
+    /*tab-index: 100;*/
+    z-index: 100;
+    overflow: auto;
+    background: white;
+    box-shadow: 1px 1px 1px .3px rgba(0,0,0,0.24);
+    border-radius: 5px;
+
+
+    /*overflow: auto;*/
+    /*overflow-x: hidden;
+    -ms-overflow-x: hidden;*/
+}
+
+#logout:hover{
+    /*background: #000;*/
+    /*opacity: .1;*/
+
+}
+
+#logout a{
+    color: #039ad2;
+}
+
+#logout a:hover{
+    color: #444;
+    text-decoration: none;
+}
+
+
+
+#jm-top-menu-nav #login-form{
+    padding: 2px 0 0 0;
+    border-right: 1.5px solid #c0c6c8;
+}
+
+/**/
+
+/*Css para disminuir la distancia entre el componente de la inicial del usuario y el menú*/
+
+#jm-top-menu-nav .jm-module-raw + .jm-module-raw {
+
+    margin-left: 0px;
+
+}
+
+/**/
+
+/*Css para modificar la forma de mostrar las categorias del home*/
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree {
+    padding: 0 5px;
+	min-width:153px;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a {
+    /*display: table;*/
+    display: block;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a span{
+    /*display: table;*/
+    font-size: 15px;
+    color: #000000;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li {
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    padding-left: 0% !important;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a .cat_name {
+    text-align: center;
+    display: block;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li a img.cat_tree_icon {
+    margin: 0;
+    width: 75px;
+}
+
+/**/
+
+/*Css para elminar que al pasar por arriba de algún campo, modifique el cursor por una manito*/
+
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: default;
+}
+
+/**/
+
+/*Css para eliminar el icono de usuario en el jm-top-menu-nav*/
+
+#jm-top-menu-nav{
+    background: none;
+}
+
+
+/**/
+
+/*Css para ocultar el ícono de loading en la interfaz de búsqueda de anuncios*/
+
+.djcf_slider_loader_img{
+    display: none;
+}
+
+/**/
+
+
+/*Css para modificar las notificaciones del header*/
+
+
+.mod_djmsgnotifications{
+    margin-left: 20px;
+}
+
+
+/**/
+
+/*Css para separar el content main cuando no existen resultados de búsqueda*/
+
+#jm-main #jm-maincontent {
+    margin-bottom: 60px;
+}
+
+/**/
+
+#jm-logo-sitedesc{
+  min-width: 200px!important;
+  padding-top: 12px!important;
+  padding-bottom: 12px!important;
+}
+
+.nav.menu li span.separator{
+    font-weight: bold!important;
+  	text-transform: uppercase;
+}
+
+.nav.menu li span.separator:hover{
+  color: #454545!important;
+}
+
+#jm-footer-mod{
+  background: #1c253a!important;
+}
+
+#jm-footer-mod .nav.menu li a, #jm-footer-mod .nav.menu li span.separator{
+  color: #374870!important;
+}
+
+.row-fluid .span2{
+	text-align: center;
+}
+
+.mod_djclassifieds_cattree .dj-cattree-box .dj-cattree li{
+  padding-left: 35%;
+}
+
+#jm-allpage .search-ms.location-ms.bg-ms .dj_cf_search
+{
+  background: #039FD8!important;
+}
+
+/*Css para resoluciones de móviles*/
+
+
+
+@media (max-width: 474px) {
+
+    #jm-logo-sitedesc {
+        min-width: 100px !important;
+        padding-right: 0px !important;
+    }
+
+    #jm-top-menu-nav {
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .mod_djclassifieds_cattree .dj-cattree-box .dj-cattree {
+		width: 50% !important;
+	}
+}
+
+
+
+@media (max-width: 350px) {
+
+    #jm-logo-sitedesc {
+        min-width: 85px !important;
+        padding-right: 0px !important;
+        max-width: 80px !important;
+    }
+}
+
+
+/**/
+
+/*Css para ocultar el ícono de los Rss en las categorías*/
+
+.main_cat_title .rss_icon{
+	display:none;
+}
+
+/**/
+
